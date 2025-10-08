@@ -1,4 +1,4 @@
-# 🌟 Portafolio Personal - Jorge Morgado
+# 🌟 Portafolio Personal
 
 ![Portafolio Preview](https://img.shields.io/badge/Estado-En%20Desarrollo-brightgreen)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
