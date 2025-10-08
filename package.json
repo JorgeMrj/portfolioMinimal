@@ -1,0 +1,60 @@
+{
+  "name": "portfolio-jorge-morgado",
+  "version": "1.0.0",
+  "description": "Portafolio personal minimalista de Jorge Morgado - Estudiante DAW",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/index.html",
+    "dev": "live-server --port=3000 --open=/index.html --watch=.",
+    "build": "echo 'Este es un proyecto estático, no requiere build' && exit 0",
+    "deploy": "echo 'Consulta el README.md para instrucciones de deployment'",
+    "lint:html": "htmlhint index.html",
+    "lint:css": "stylelint css/*.css",
+    "lint:js": "eslint js/*.js",
+    "lighthouse": "lighthouse http://localhost:3000 --output html --output-path ./lighthouse-report.html",
+    "preview": "echo 'Abriendo preview...' && start index.html"
+  },
+  "keywords": [
+    "portfolio",
+    "web-development",
+    "frontend",
+    "html",
+    "css",
+    "javascript",
+    "responsive",
+    "daw",
+    "jorge-morgado"
+  ],
+  "author": {
+    "name": "Jorge Morgado",
+    "email": "jorge.morgado@email.com",
+    "url": "https://github.com/jorgeMrj"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jorgeMrj/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jorgeMrj/portfolio/issues"
+  },
+  "homepage": "https://jorgeMrj.github.io/portfolio",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "htmlhint": "^1.1.4",
+    "stylelint": "^15.10.0",
+    "eslint": "^8.45.0",
+    "lighthouse": "^10.4.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "private": false
+}
