@@ -63,53 +63,59 @@ Portafolio web personal minimalista y moderno diseñado para destacar las habili
 ```
 portfolioMinimal/
 │
-├── 📄 index.html              # Página principal
+├── 📄 index.html              # Página principal del portfolio
 ├── 📄 README.md               # Documentación del proyecto
+├── 📄 LICENSE                 # Licencia MIT
+├── 📄 .gitignore              # Archivos excluidos de Git
 │
 ├── 📁 css/
-│   └── 📄 styles.css          # Estilos principales
+│   └── 📄 styles.css          # Estilos CSS con variables personalizadas
 │
-├── 📁 js/
-│   └── 📄 script.js           # Funcionalidades JavaScript
-│
-├── 📁 assets/                 # Recursos multimedia
-│   ├── 🖼️ favicon.ico         # Icono del sitio
-│   ├── 🖼️ profile.jpg         # Foto de perfil
-│   ├── 🖼️ project1.jpg        # Imagen proyecto 1
-│   ├── 🖼️ project2.jpg        # Imagen proyecto 2
-│   ├── 🖼️ project3.jpg        # Imagen proyecto 3
-│   └── 🖼️ project4.jpg        # Imagen proyecto 4
-│
-└── 📁 docs/                   # Documentación adicional (opcional)
-    └── 📄 deployment.md       # Guía de despliegue
+└── 📁 js/
+    └── 📄 script.js           # Funcionalidades JavaScript interactivas
 ```
+
+**✨ Estructura minimalista y limpia:**
+
+- **Solo 7 archivos** esenciales
+- **Sin dependencias** externas
+- **Fácil de mantener** y modificar
+- **Optimizado** para deploy en cualquier plataforma
 
 ## 🚀 Instalación y Uso
 
-### Requisitos Previos
+### Requisitos
 
-- Navegador web moderno (Chrome, Firefox, Safari, Edge)
-- Editor de código (recomendado: VS Code)
-- Git (para control de versiones)
+- **Solo un navegador web moderno** (Chrome, Firefox, Safari, Edge)
+- **Opcional:** VS Code con Live Server para desarrollo
 
 ### Instalación Local
 
 1. **Clonar el repositorio**
 
    ```bash
-   git clone https://github.com/jorgeMrj/portfolio.git
-   cd portfolio
+   git clone https://github.com/jorgeMrj/portfolioMinimal.git
+   cd portfolioMinimal
    ```
 
-2. **Abrir en navegador**
+2. **Abrir directamente**
 
-   - Abrir `index.html` directamente en el navegador
-   - O usar Live Server en VS Code para desarrollo
+   ```bash
+   # Abrir en navegador
+   start index.html  # Windows
+   open index.html   # macOS
+   ```
 
-3. **Personalización**
-   - Reemplazar imágenes en la carpeta `assets/`
-   - Modificar información personal en `index.html`
-   - Ajustar colores y estilos en `css/styles.css`
+3. **Desarrollo con Live Server** (opcional)
+   - Instalar [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) en VS Code
+   - Abrir proyecto en VS Code
+   - Click derecho en `index.html` → "Open with Live Server"
+
+### Personalización Rápida
+
+- **Texto:** Editar directamente en [`index.html`](index.html)
+- **Estilos:** Modificar variables CSS en [`css/styles.css`](css/styles.css)
+- **Colores:** Cambiar el tema morado por otro color en las variables CSS
 
 ## 🌐 Despliegue
 
