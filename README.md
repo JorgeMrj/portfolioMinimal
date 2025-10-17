@@ -238,7 +238,7 @@ Este proyecto está bajo la Licencia MIT. Ver `LICENSE` para más detalles.
 - 📧 Email: jorge.morgado@email.com
 - 💼 LinkedIn: [linkedin.com/in/jorgemorgado](https://linkedin.com/in/jorgemorgado)
 - 🐙 GitHub: [github.com/jorgeMrj](https://github.com/jorgeMrj)
-- 🌐 Portfolio: [Tu dominio personalizado]
+- 🌐 Portfolio: [https://jorgemrj.github.io/portfolioMinimal/](https://jorgemrj.github.io/portfolioMinimal/)
 
 ## 📈 Roadmap
 
